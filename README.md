@@ -18,6 +18,8 @@ A simple Windows GUI application for removing audio from video files without re-
 - Optional deletion of successfully converted source files
 - FFmpeg included in the executable
 
+No rights reserved.
+
 ## FFmpeg
 
 NoSound uses FFmpeg for video processing.
