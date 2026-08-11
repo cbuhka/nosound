@@ -1,38 +1,34 @@
 # NoSound
 
-A simple GUI video converter for Windows.
+A simple Windows GUI application for removing audio from video files without re-encoding the video.
 
-NoSound uses **FFmpeg** for video processing.
+## Features
+
+- Batch processing of multiple video files
+- Removes the audio stream from videos
+- Copies the video stream without re-encoding
+- Supports multiple video formats
+- Selectable output folder
+- Automatic sequential processing
+- Failed files remain in the list and are not deleted
+- Successfully converted files are automatically removed from the list
+- Progress bar for the current file
+- Overall conversion progress
+- Estimated remaining time for the current file and the entire batch
+- Optional deletion of successfully converted source files
+- FFmpeg included in the executable
 
 ## FFmpeg
 
-This application includes FFmpeg for video conversion.
+NoSound uses FFmpeg for video processing.
 
-FFmpeg is licensed under the **GNU General Public License (GPL)**.
+The included FFmpeg executable is from the
+[FFmpeg Essentials Build](https://www.gyan.dev/ffmpeg/builds/).
 
-FFmpeg project:
+FFmpeg:
 https://ffmpeg.org/
 
 FFmpeg source code:
 https://github.com/FFmpeg/FFmpeg
 
-The FFmpeg executable included with NoSound is from the
-[FFmpeg Essentials Build](https://www.gyan.dev/ffmpeg/builds/).
-
-## Features
-
-- Batch video conversion
-- Direct video stream copy without re-encoding
-- Audio removal
-- Progress indicator for the current file
-- Overall conversion progress
-- Estimated remaining time
-- Automatic removal of successfully processed files from the list
-- Optional deletion of successfully converted source files
-- FFmpeg included in the application
-
-## License
-
-NoSound source code is provided separately from FFmpeg.
-
-FFmpeg is a separate project and remains subject to its own license.
+FFmpeg is a separate project and is distributed under its own license.
